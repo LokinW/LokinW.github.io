@@ -1,0 +1,62 @@
+.footer {
+    position: relative;
+}
+
+.footer__title {
+    padding-top: 1rem;
+    margin-bottom: 6rem;
+    font-size: var(--size-xs);
+    font-weight: 400;
+    color: var(--clr-db2);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    z-index: 10;
+}
+
+.dataHandling {
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    z-index: 999;
+}
+
+.dataHandling__link {
+    color: var(--clr-db2);
+    pointer-events: auto;
+}
+
+/* XS */
+/* @media (min-width: 475px) {
+
+} */
+
+/* SM */
+/* @media (min-width: 640px) {
+
+} */
+
+/* MD */
+/* @media (min-width: 768px) {
+
+} */
+
+/* LG */
+@media (min-width: 1024px) {
+    .footer__title {
+        margin-bottom: 1rem;
+    }
+}
+
+/* XL */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* 2XL */
+/* @media (min-width: 1536px) {
+
+} */

@@ -1,0 +1,235 @@
+.references {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.references__wrapper {
+    width: 100lvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background: var(--clr-dark);
+    padding-top: 14rem;
+    padding-bottom: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.references__title {
+    margin-bottom: 2rem;
+    max-width: 25ch;
+    font-size: var(--size-3xl);
+    text-align: center;
+}
+
+.references__subtitle{
+    font-weight: 200;
+    color: var(--clr-turqu);
+    font-size: var(--size-base);
+    margin-top: .25rem;
+}
+
+.references__tile{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.references__img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    filter: saturate(0);
+}
+.references__person-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+.references__name-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.references__quote{
+    font-size: var(--size-sm);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 40ch;
+}
+.references__name{
+    font-size: var(--size-sm);
+    font-weight: 600;
+}
+.references__company{
+    font-size: var(--size-sm);
+    color: var(--clr-db1);
+}
+.references__job{
+    font-size: var(--size-sm);
+    color: var(--clr-db1);
+}
+
+.references__line{
+    height: 1px;
+    width: 100%;
+    background-color: var(--clr-light);
+}
+
+/* XS */
+@media (min-width: 475px) {
+    .references__title {
+        font-size: var(--size-4xl);
+    }
+    .references__subtitle{
+        font-size: var(--size-lg);
+    }
+    .references__quote{
+        font-size: var(--size-base);
+    }
+    .references__name{
+        font-size: var(--size-base);
+    }
+    .references__company{
+        font-size: var(--size-base);
+    }
+    .references__job{
+        font-size: var(--size-base);
+    }
+}
+
+/* SM */
+@media (min-width: 640px) {
+    .references__img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .references__person-wrapper{
+        justify-content: center;
+    }
+    .references__title {
+        font-size: var(--size-5xl);
+    }
+    .references__subtitle{
+        font-size: var(--size-xl);
+    }
+    .references__quote{
+        font-size: var(--size-lg);
+    }
+    .references__name{
+        font-size: var(--size-lg);
+    }
+    .references__company{
+        font-size: var(--size-lg);
+    }
+    .references__job{
+        font-size: var(--size-lg);
+    }
+    .references__person-wrapper{
+        gap: 2.5rem;
+        margin-top: 3rem;
+    }
+    .references__tile{
+        padding: 3rem 0;
+    }
+}
+
+/* MD */
+@media (min-width: 768px) {
+    .references__img{
+        width: 7rem;
+        height: 7rem;
+    }
+    .references__person-wrapper{
+        justify-content: center;
+    }
+    .references__title {
+        font-size: var(--size-6xl);
+    }
+    .references__subtitle{
+        font-size: var(--size-3xl);
+    }
+    .references__quote{
+        font-size: var(--size-xl);
+    }
+    .references__name{
+        font-size: var(--size-xl);
+    }
+    .references__company{
+        font-size: var(--size-xl);
+    }
+    .references__job{
+        font-size: var(--size-xl);
+    }
+    .references__person-wrapper{
+        gap: 2.5rem;
+        margin-top: 3rem;
+    }
+    .references__tile{
+        padding: 3rem 0;
+    }
+}
+
+/* LG */
+@media (min-width: 1024px) {
+    .references__title {
+        font-size: var(--size-6xl);
+        text-align: center;
+    }
+    .references__subtitle{
+        font-size: var(--size-2xl);
+        text-align: center;
+    }
+    
+    .references__tile{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        position: relative;
+    }
+    .references__img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .references__quote{
+        font-size: var(--size-lg);
+        max-width: 55ch;
+    }
+    .references__name{
+        font-size: var(--size-lg);
+    }
+    .references__company{
+        font-size: var(--size-lg);
+    }
+    .references__job{
+        font-size: var(--size-lg);
+    }
+    .references__person-wrapper{
+        gap: 1rem;
+        position: relative;
+        left: 0;
+        margin-top: 0;
+        justify-content: center;
+        flex-direction: column;
+        width: 20rem;
+    }
+    .references__line{
+        width: 98%;
+    }
+}
+
+/* XL */
+@media (min-width: 1280px) {
+    .references__quote{
+        max-width: 60ch;
+    }
+}
+
+/* 2XL */
+/* @media (min-width: 1536px) {
+
+} */

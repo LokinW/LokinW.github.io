@@ -1,0 +1,275 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--clr-db2);
+    position: relative;
+    padding-top: 5rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    width: 100lvw;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: var(--clr-light);
+}
+
+.about__title {
+    font-size: var(--size-3xl);
+    text-align: center;
+}
+
+.about__subtitle {
+    font-size: var(--size-lg);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.about__description {
+    font-size: var(--size-xs);
+    color: var(--clr-db3);
+    max-width: 40ch;
+    text-align: justify;
+}   
+.about::before {
+    content: '';
+    position: absolute;
+    width: 100lvw;
+    top: 0;
+    height: .06rem;
+    box-shadow: 0 4.5rem 0 rgba(255, 255, 227, 1), 0 4rem 1px rgba(255, 255, 227, .75), 0 2rem 2px rgba(255, 255, 227, .5), 0 -2rem 3px rgba(255, 255, 227, .25);
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    width: 100lvw;
+    bottom: 0;
+    height: .06rem;
+    box-shadow: 0 .5rem 0 rgba(255, 255, 227, 1), 0 1rem 1px rgba(255, 255, 227, .75), 0 3rem 2px rgba(255, 255, 227, .5), 0 7rem 3px rgba(255, 255, 227, .25);
+    z-index: 2;
+}
+
+.about__ul-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 60ch;
+    width: 100%;
+}
+
+.about__ul {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 1em;
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.about__list {
+    font-size: var(--size-sm);
+    color: var(--clr-db3);
+    position: relative;
+    white-space: nowrap;
+}
+
+
+
+/* XS */
+@media (min-width: 475px) {
+    .about {
+        gap: 2rem;
+    }
+    
+    .about__content {
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;    
+    }
+    
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-base);
+        padding-left: 1rem;
+        padding-right: .75rem;
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-3xl);
+    }
+    
+    .about__list {
+        font-size: var(--size-lg);
+    }
+}
+
+/* SM */
+@media (min-width: 640px) {
+    .about__content {
+        gap: 2.5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;        
+    }
+
+    .about__title {
+        font-size: var(--size-5xl);
+    }
+    .about__subtitle {
+        font-size: var(--size-4xl);
+    }
+    .about__description, .about__ul-container, .about__subtitle, .about__title {
+        margin-left: 3rem;
+        margin-right: 2rem;
+    }
+}
+
+/* MD */
+@media (min-width: 768px) {
+    .about__list:hover {
+        cursor:default;
+    }
+    .about__ul-container {
+        max-width: 90ch;
+    }
+    .webent:after {
+        content: 'Webentwicklung';
+        position: absolute;
+        top: 0;
+        right: -10rem;
+        font-size: var(--size-base);
+        color: var(--clr-coral);
+        filter: opacity(0);
+        border-left: 1px solid var(--clr-coral);
+        padding-left: 1rem;
+    }
+    .webent:hover::after {
+        filter: opacity(1);
+        transition: filter .25s;
+    }
+    .webent:hover {
+        color:var(--clr-coral);
+        transition: color .25s;
+    }
+    .proto:after {
+        content: 'Prototyping';
+        position: absolute;
+        top: 0;
+        right: -7.75rem;
+        font-size: var(--size-base);
+        color: var(--clr-db15);
+        filter: opacity(0);
+        border-left: 1px solid var(--clr-db15);
+        padding-left: 1rem;
+    }
+    .proto:hover::after {
+        filter: opacity(1);
+        transition: filter .25s;
+    }
+    .proto:hover {
+        color:var(--clr-db15);
+        transition: color .25s;
+    }
+    .about__list::before {
+        content: '';
+        margin-left: .5em;
+    }
+    .dreid:after {
+        content: '3D Modellierung';
+        position: absolute;
+        white-space: nowrap;
+        top: 0;
+        right: -10rem;
+        font-size: var(--size-base);
+        color: rgb(55, 165, 204);
+        filter: opacity(0);
+        border-left: 1px solid rgb(55, 165, 204);
+        padding-left: 1rem;
+    }
+    .dreid:hover::after {
+        filter: opacity(1);
+        transition: filter .25s;
+    }
+    .dreid:hover {
+        color:rgb(55, 165, 204);
+        transition: color .25s;
+    }
+    .office:after {
+        content: 'MS Office Autom.';
+        position: absolute;
+        white-space: nowrap;
+        top: 0;
+        right: -10.5rem;
+        font-size: var(--size-base);
+        color: rgb(51, 196, 129);
+        filter: opacity(0);
+        border-left: 1px solid rgb(51, 196, 129);
+        padding-left: 1rem;
+    }
+    .office:hover::after {
+        filter: opacity(1);
+        transition: filter .25s;
+    }
+    .office:hover {
+        color:rgb(51, 196, 129);
+        transition: color .25s;
+    }
+    
+    .about__list::before {
+        content: '';
+        margin-left: .5em;
+    }
+}
+
+/* LG */
+@media (min-width: 1024px) {
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-lg);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-2xl);
+    }
+    
+    .about__list {
+        font-size: var(--size-lg);
+    }
+}
+
+/* XL */
+@media (min-width: 1280px) {
+    .about__content {
+        gap: 2rem;    
+    }
+    
+    .about__description {
+        font-size: var(--size-xl);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-3xl);
+    }
+    
+    .about__list {
+        font-size: var(--size-xl);
+    }
+
+}
+
+/* 2XL */
+/* @media (min-width: 1536px) {
+
+} */

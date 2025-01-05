@@ -1,0 +1,218 @@
+/* CV */
+.cv {
+    background:var(--clr-dark);
+    position: relative;
+    margin-top: 3rem;
+}
+
+.cv__header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cv__header-txt {
+    font-size: var(--size-6xl);
+    color: var(--clr-light);
+    text-align: center;
+}
+#dl_cv {
+    width: auto;
+    margin-top: 1.5rem;
+    font-size: var(--size-sm);
+    font-weight: 900;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: .5rem;
+}
+
+.cv-ed__header, .cv-wk__header {
+    font-size: var(--size-4xl);
+    width: 95%;
+    margin: 2rem auto 0 auto;
+    color: var(--clr-db1);
+    padding: .5rem 0 .5rem 1rem;
+    border-bottom: 4px var(--clr-db1) dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    user-select: none;
+}
+.education__arrow {
+    font-size: var(--size-2xl);
+    transform: rotate(180deg);
+    transition: transform .25s;
+}
+
+.cv__wrapper {
+    display: initial;
+    flex-direction: row;
+    align-items:flex-start;
+}
+.education__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.education__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.education__content {
+    max-width: 60ch;
+    width: 100%;
+    padding: .5rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 1rem;
+    background: var(--clr-db3);
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.education__content-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--size-sm);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--clr-db1);
+}
+.education__content-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--size-sm);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.cv__date-txt {
+    border: .5px solid var(--clr-db1);
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    display: inline-block;
+    font-weight: lighter;
+}
+.cv__degree-type {
+    border: .5px solid var(--clr-light);
+    color: var(--clr-light);
+    background: var(--clr-db15);
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    display: none;
+}
+.cv__grad-icon {
+    color: var(--clr-light);
+}
+.cv__insititution{
+    color: var(--clr-db2);
+}
+.cv__city {
+    color: var(--clr-db2);
+}
+.education__logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2.5rem;
+}
+.education__logo {
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+}
+
+.cv__title {
+    text-align: left;
+    margin-top: 1rem;
+}
+.cv__paragraph{
+    margin-top: 10px;
+    color: var(--clr-db1);
+    text-align: left;
+}
+
+#cv-wk__icon {
+    font-size: var(--size-2xl);
+    transform: rotate(180deg);
+    transition: transform .25s;
+}
+
+
+
+#uSiegen__logo {
+    transform: scale(.5);
+    filter: saturate(0) brightness(5);
+}
+#thNuern__logo {
+    transform: scale(.6);
+    filter: saturate(0) brightness(3) contrast(2);
+}
+#uChile__logo {
+    transform: scale(1.1);
+    filter: saturate(0) brightness(1) contrast(2);
+}
+#sLabenwolf__logo {
+    transform: scale(.8);
+    border-radius: 25%;
+    filter: saturate(0) brightness(1) contrast(2);
+}
+#sRidgefield__logo {
+    transform: scale(.8);
+    filter: saturate(0) brightness(1.25) contrast(1);
+}
+#wLinde__logo {
+    transform: scale(1.5) translateY(12px) translateX(-8px);
+    filter: saturate(0) brightness(2.75) contrast(1);
+}
+#wSIS__logo {
+    transform: scale(1) translateY(14px) translateX(-4px);
+    filter: saturate(0) brightness(.95) contrast(1);
+}
+#wMurata__logo {
+    transform: scale(1.7) translateY(10px) translateX(-12px);
+    filter: saturate(0) brightness(4.5) contrast(1);
+}
+
+
+
+/* XS */
+@media (min-width: 475px) {
+    .cv__degree-type {
+        display: inline-block;
+    }
+}
+
+/* SM */
+/* @media (min-width: 640px) {
+
+} */
+
+/* MD */
+/* @media (min-width: 768px) {
+
+} */
+
+/* LG */
+@media (min-width: 1024px) {
+    .cv__wrapper {
+        display: flex;
+    }
+}
+
+/* XL */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* 2XL */
+/* @media (min-width: 1536px) {
+
+} */

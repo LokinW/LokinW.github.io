@@ -1,0 +1,30 @@
+import '/styles/modern-normalize.css';
+import '/styles/style.css';
+import '/styles/components/header.css';
+import '/styles/components/contact.css';
+import '/styles/components/hero.css?t=1684024419094';
+import '/styles/components/about.css?t=1684024385538';
+import '/styles/components/feature.css?t=1684019708337';
+import '/styles/components/work.css?t=1684009708572';
+import '/styles/components/references.css?t=1684026973138';
+import '/styles/components/footer.css';
+import '/styles/components/mobile-nav.css';
+import '/styles/components/cv.css';
+import '/styles/utils.css?t=1684019708331';
+import '/node_modules/flag-icons/css/flag-icons.min.css';
+
+import preload from '/src/utils/preloader.js';
+import mobileNav from '/src/utils/mobile-nav.js';
+import languageSwitch from '/src/utils/language-switch.js';
+import langToggle from '/src/utils/db.js';
+import addCopyByClick from '/src/utils/copyClick.js';
+import cvFunctions from '/src/utils/cv.js';
+import openCard from '/src/utils/contactCard.js';
+
+preload();
+mobileNav();
+languageSwitch();
+langToggle();
+openCard();
+addCopyByClick();
+cvFunctions();

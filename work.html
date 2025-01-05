@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/SN-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=chillax@300,700,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1cc5cb8824.js" crossorigin="anonymous"></script> 
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="preloader" style="background:no-repeat center center #000000 url(/loading.gif);height:100%;width:100%;position:fixed;z-index:9999;left:0;top:0;overflow-y:hidden;"></div>
+
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="/index.html">Home</a>
+        </li>
+        <li>
+          <a class="header__link" href="/work.html">Projekte</a>
+        </li>
+        <li>
+          <a class="header__link" href="/cv.html">Lebenslauf</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <a href="/index.html#contact" class="header__link btn" id="cont-btn">Kontakt</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+        </svg>          
+      </button>
+    </nav>
+  </header>
+
+<!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="/index.html" class="mobile-nav__link">Home</a>
+          </li>
+          <li>
+            <a href="/work.html" class="mobile-nav__link">Projekte</a>
+          </li>
+          <li>
+            <a href="/cv.html" class="mobile-nav__link">Lebenslauf</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <a href="/index.html#contact" class="mobile-nav__link btn">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<!-- End of mobile Navigation -->
+
+<main>
+  <a href="#" class="btn to-top">
+    <div class="text">Zum Seitenanfang</div>
+    <div class="arrow">&#8963;</div>
+  </a>
+    
+    <div class="projects container">
+        <div class="projects__header">
+            <h1 class="projects__header-txt">Projekte</h1>
+            <h3 class="projects__subtitle-txt">Erkunde meine Arbeit.</h3>
+        </div>
+        <div class="projects__container">
+          <!-- Project 1 -->
+            <section class="projects-wrapper p1" id="p1">
+                <div class="projects__img-wrapper">
+                  <img id="projects__img1" loading="lazy" src="/baThumbnail.jpg" alt="">
+                </div>
+                <div class="projects__project-content projects__content1">
+                  <h3 class="projects__project-title">Bachelorarbeit im Bereich User Research</h3>
+                  <p class="projects__project-description2">Was ist Emotions-KI? Kann man UX messbar machen? Wie hängen Emotionen und Kognition zusammen? Die Antworten darauf stehen in meiner Bachelorarbeit!
+                  </p>
+                  <a href="./pages/bachelorarbeit.html" target="_self" class="projects__project-btn btn">Zum Projekt</a>
+                </div>
+            </section>
+          <!-- Project 2 -->
+<!--           <section class="projects-wrapper p2" id="p2">
+            <div class="projects__img-wrapper">
+              <img id="projects__img2" loading="lazy" src="/public/ui.jpg" alt="">
+            </div>
+            <div class="projects__project-content projects__content1">
+              <h3 class="projects__project-title">Tägliche Figma UI Challenge</h3>
+              <p class="projects__project-description2">Eine Gruppe von HCI-Kommilitonen und ich nahmen uns der UI-Challenge an. Wir kommunizierten über Telegram und tauschten unsere Designs über miro aus. Hier eine Auswahl meiner Designs!
+              </p>
+              <a href="/figma.html" target="_self" class="projects__project-btn btn">Zum Projekt</a>
+            </div>
+          </section> -->
+          <!-- Project 3 -->
+          <section class="projects-wrapper p3" id="p3">
+            <div class="projects__img-wrapper">
+              <img id="projects__img3" loading="lazy" src="/chatbot.png" alt="">
+            </div>
+            <div class="projects__project-content projects__content1">
+              <h3 class="projects__project-title">Chatbot für personalisierte Rezepte</h3>
+              <p class="projects__project-description2">Fast jeder hat diesen einen guten Koch mit den besten Rezepten im Freundeskreis. Für diejenigen, die diesen nicht haben, entwickelte und testete ich die Funktionsweise eines Telegram-Chatbots, der Rezepte empfiehlt.</p>
+              <a href="./pages/botandcook.html" target="_self" class="projects__project-btn btn">Zum Projekt</a>
+            </div>
+          </section>
+          <!-- Project 4 -->
+          <section class="projects-wrapper p4" id="p4">
+            <div class="projects__img-wrapper">
+              <img id="projects__img4" loading="lazy" src="/metaverse.png" alt="">
+            </div>
+            <div class="projects__project-content projects__content1">
+              <h3 class="projects__project-title">Whitepaper über das Metaverse</h3>
+              <p class="projects__project-description2">Das Team bei Linde wurde vom Top-Management beauftragt, ein Whitepaper zum Metaverse zu erstellen. Da ich mich bereits zuvor fachlich mit dem Thema auseinandergesetzt hatte, konnte ich in technischen Fragen unterstützen.</p>
+              <a href="./pages/whitepaper.html" target="_self" class="projects__project-btn btn">Zum Projekt</a>
+            </div>
+          </section>
+          <!-- Project 5 -->
+          <section class="projects-wrapper p5">
+            <div class="projects__img-wrapper">
+              <img id="projects__img5" loading="lazy" src="/otherness.png" alt="">
+            </div>
+            <div class="projects__project-content projects__content1">
+              <h3 class="projects__project-title">Andersartigkeit nicht-menschlicher Akteure</h3>
+              <p class="projects__project-description2">Otherware erfordert einen anderen Ansatz für die Interaktionsgestaltung als verkörperte Technologien. Diesen Erforschten wir im Rahmen eines Projekt-Moduls.</p>
+              <a href="./pages/otherness.html" target="_self" class="projects__project-btn btn">Zum Projekt</a>
+            </div>
+          </section>
+
+        </div>
+</main>
+<script type="module" src="./src/main.js"></script>
+<script type="module" src="./src/utils/work-anim.js"></script>
+<script type="module" src="./src/utils/preloader.js"></script>
+</body>
+<footer class="footer container section">
+  <h3 class="footer__title">~ Sebastian Nikol ~</h3>
+  <div class="dataHandling container">
+    <a href="/pages/impressum.html" class="dataHandling__link">Impressum</a>
+    <a href="/pages/datenschutz.html" class="dataHandling__link">Datenschutzerklärung</a>
+  </div>
+</footer>
+</html>

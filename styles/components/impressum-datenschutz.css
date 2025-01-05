@@ -1,0 +1,16 @@
+.impressum {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    top: 0;
+    background-color: var(--clr-db3);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+/* SM */
+@media (min-width: 640px) {
+    .impressum {
+        max-width: 40rem;
+    }
+}

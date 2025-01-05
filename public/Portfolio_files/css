@@ -1,0 +1,31 @@
+/* Chillax */
+@font-face {
+  font-family: 'Chillax';
+  src: url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chillax';
+  src: url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/WSPWZKQM26GGKSLVGSP2CFUHUMS5BCYQ/UE3YJANJM3SE3IWT4TOMYQVMLCQ6GZGG/XESIRBQU62YFBC7YQZI6D2NT5CNZ4PPU.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chillax';
+  src: url('//cdn.fontshare.com/wf/UM553GIXLG5E46TUH763VYPGAQ77BPQ5/NN4EI53RUGC4BO5HP5F46SYQ4WY4U4CE/T2KA2X72VGASVXFVB7QCOIFYVH5GZJTW.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/UM553GIXLG5E46TUH763VYPGAQ77BPQ5/NN4EI53RUGC4BO5HP5F46SYQ4WY4U4CE/T2KA2X72VGASVXFVB7QCOIFYVH5GZJTW.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/UM553GIXLG5E46TUH763VYPGAQ77BPQ5/NN4EI53RUGC4BO5HP5F46SYQ4WY4U4CE/T2KA2X72VGASVXFVB7QCOIFYVH5GZJTW.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+

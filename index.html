@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/SN-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=chillax@300,700,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1cc5cb8824.js" crossorigin="anonymous"></script> 
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+  <div id="preloader" style="background:no-repeat center center #000000 url(/loading.gif);height:100%;width:100%;position:fixed;z-index:9999;left:0;top:0;overflow-y:hidden;"></div>
+
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="/index.html">Home</a>
+        </li>
+        <li>
+          <a class="header__link" href="/work.html">Projekte</a>
+        </li>
+        <li>
+          <a class="header__link" href="/cv.html">Lebenslauf</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <a href="#contact" class="header__link btn" id="cont-btn">Kontakt</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+        </svg>          
+      </button>
+    </nav>
+  </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="/index.html" class="mobile-nav__link">Home</a>
+          </li>
+          <li>
+            <a href="/work.html" class="mobile-nav__link">Projekte</a>
+          </li>
+          <li>
+            <a href="/cv.html" class="mobile-nav__link">Lebenslauf</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <a href="#contact" class="mobile-nav__link btn">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of mobile Navigation -->
+
+    <main>
+        <canvas id="threejs-container"></canvas>
+      
+      <a href="#" class="btn to-top">
+        <div class="text">Zum Seitenanfang</div>
+        <div class="arrow">&#8963;</div>
+      </a>
+        
+      <section id="hero" class="hero container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title">Ich bin Sebastian.</h1>
+          <p class="hero__description">HCI-Student in den letzten Zügen meines Masterstudiums, detailorientierter Frontend-Entwickler mit Erfahrung im Prototyping, dynamischer UX-Researcher und ein großer Fan der agilen Arbeitsweise.</p>
+          <a href="#contact" class="hero__btn btn">Schreib' mir</a> 
+        </div>
+      </section>
+      
+      <section id="about" class="about container">
+        <div class="about__content">
+          <h2 class="about__title">Über mich</h2>
+          <p class="about__description">
+            Aufgewachsen in einer Familie von Kunstmalern, entwickelte ich früh eine Sensibilisierung für Kreativität und einen scharfen Blick für Details. 
+            <br>Um ein grundlegendes Verständnis dieser globalisierten Welt zu erlernen, entschied ich mich nach dem Abitur für das Bachelor Studium 'International Business'. Während eines Praktikums in der Marktforschung entdeckte ich dann meine natürliche Affinität zum UX-Research.
+          </p>
+          <p class="about__description">
+            Hieraus entwickelte sich meine Leidenschaft für die Entwicklung effizienter und ästhetisch ansprechender IT-Artefakte. Ich schrieb meine Bachelorarbeit in diesem Fachbereich und vertiefe seitdem mein Wissen im Master Studium 'Human Computer Interaction'.
+          </p>
+          <h2 class="about__subtitle">IT Kenntnisse</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list webent">- HTML</li>
+              <li class="about__list webent">- React</li>
+              <li class="about__list webent">- TailwindCSS</li>
+              <li class="about__list webent">- three.js</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list webent">- GSAP</li>
+              <li class="about__list proto">- Figma</li>
+              <li class="about__list proto">- Balsamiq</li>
+              <li class="about__list dreid">- Maya</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <section class="references container">
+        <div class="references__wrapper">
+          <h2 class="references__subtitle">Referenzen</h2>
+          <h1 class="references__title">Was meine bisherigen Vorgesetzten über mich sagen.</h1>
+          <div class="references__tile">
+            <p class="references__quote">
+              "Sebastian Nikol hat die Neugestaltung der Webseite Pape Architektur äußert kompetent und in sehr angenehmer Zusammenarbeit mit konzipiert und umgesetzt. Meine Erfahrung war durchweg positiv und die Zusammenarbeit war geprägt von Professionalität, Zuverlässigkeit und insbesondere von einer offenen Kommunikation. Technische und gestalterische Herausforderungen wurden von Sebastian Nikol schnell und effizient gelöst. Er hat dabei nicht nur die formulierten  Anforderungen bearbeitet, sondern stets auch eigene Ideen eingebracht, die letztlich zu dem sehr zufriedenstellenden Ergebnis geführt haben.
+              <br>
+              Ich kann Sebastian Nikol uneingeschränkt jedem empfehlen, der auf der Suche nach einer professionellen, zuverlässigen und kreativen Umsetzung einer Webseite ist."
+              <div class="references__person-wrapper">
+              <img src="/Eva-Maria-Pape-Portrait-2.png" alt="Bild von Frau Pape" class="references__img">
+              <div class="references__name-wrapper">
+                <p class="references__name">Prof. Dipl.-Ing. Eva-Maria Pape</p>
+                <p class="references__company">Pape Architektur</p>
+                <p class="references__job">Architektin BDA</p>
+              </div>
+            </div>
+          </div>
+          <div class="references__line"></div>
+          <div class="references__tile">
+            <p class="references__quote">"Sebastian war sehr zuverlässig, vertrauenswürdig, talentiert und eigenverantwortlich. Er leistete einen Mehrwert für das Unternehmen, indem er Projekte nahtlos abwickelte, komplexe Aufträge verstand, anspruchsvolle Kunden betreute und Berichte strukturiert und zielgerichtet verfasste.
+              <br>
+              Er war detailorientiert und in der Lage, durch Multitasking effektiv zu arbeiten, was in der globalen Wirtschaft wichtig ist. Er war in der Lage, sich an einen sehr schnelllebigen, dynamischen und international ausgerichteten Arbeitsplatz anzupassen. (...)
+              <br>
+              Sebastian zeigte bemerkenswerte Integrität und setzte einen hohen Standard für andere in unserem Team."
+              <br>
+              <i>*Übersetzt aus dem Englischen*</i>
+            </p>
+              
+            <div class="references__person-wrapper">
+              <img src="/Michael-Stanat.jpg" alt="Bild von Herrn Stanat" class="references__img">
+              <div class="references__name-wrapper">
+                <p class="references__name">Michael Stanat</p>
+                <p class="references__company">SIS International Research</p>
+                <p class="references__job">Director of Global Operations</p>
+              </div>
+            </div>
+          </div>
+          <div class="references__line"></div>
+          <div class="references__tile">
+            <p class="references__quote">"Im Laufe des Praktikums hat Sebastian unter Beweis gestellt, dass er sich sehr schnell in neue Aufgaben einarbeiten kann. Binnen kürzester Zeit verstand er es, die erlernten Fachkenntnisse immer sehr erfolgreich in den Arbeitsabläufen umzusetzen.
+              <br>
+              Die ihm übertragenen Tätigkeiten erledigte Sebastian durchweg selbstständig, mit äußerster Sorgfalt und größter Effizienz. Dabei zeigte er eine sehr hohe Auffassungsgabe und dachte jederzeit mit."</p>
+            <div class="references__person-wrapper">
+              <img src="/Julia-Warmuth.jpeg" alt="Bild von Frau Warmuth" class="references__img">
+              <div class="references__name-wrapper">
+                <p class="references__name">Julia Warmuth</p>
+                <p class="references__company">Studydrive</p>
+                <p class="references__job">Head of Community Management</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <div class="contact__container">
+          <h2 class="contact__title">Kontakt <i class="fa-regular fa-paper-plane"></i></h2>
+          <div class="visitenkarte__container">
+            <div class="visitenkarte">
+                <h2 class="v_name" id="v_name">Sebastian Nikol</h2>
+                <p class="v_title" id="v_title">M.Sc. Human Computer Interaction</h2>
+                <p class="v_mail" id="text1">
+                  <i class="fa-solid fa-envelope" id="icn_mail"></i>
+                  SebastianNikol@gmx.de
+                </p>
+                <div class="v_btn1" id="copy-text-button">
+                  <i id="btn1-copy" class="fa-solid fa-copy"></i>
+                  <i id="btn1-check" class="fa-solid fa-check"></i>
+                  <div class="tooltip1" id="copy-text-tooltip1">Zum kopieren klicken</div>
+                  <div class="tooltip1" id="copy-complete-tooltip1">Email wurde kopiert</div>
+                </div>
+                <p class="v_website" id="text2">
+                  <i class="fa-solid fa-globe" id="icn_webs"></i>
+                  www.sebastiannikol.de
+                </p>
+                <div class="v_btn2" id="copy-text-button2">
+                  <i class="fa-solid fa-copy" id="btn2-copy"></i>
+                  <i class="fa-solid fa-check" id="btn2-check"></i>
+                  <div class="tooltip2" id="copy-text-tooltip2">Zum kopieren klicken</div>
+                  <div class="tooltip2" id="copy-complete-tooltip2">Link wurde kopiert</div>
+                </div>
+                <a href="https://www.linkedin.com/in/sebastian-nikol/" target="_blank" class="v_linkedin" id="copy-linkedin">
+                  <i class="fa-brands fa-linkedin" id="icn_likn"></i>
+                  linkedin.com/in/sebastian-nikol
+                  <i class="fa-solid fa-arrow-up-right-from-square" id="v_link-icon"></i>
+                </a> 
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/utils/threemodel.js"></script>
+    <script type="module" src="./src/utils/anim.js"></script>
+    <script type="module" src="./src/utils/copyBasics.js"></script>
+  </body>
+  <footer class="footer container section">
+    <h3 class="footer__title">~ Sebastian Nikol ~</h3>
+    <div class="dataHandling container">
+      <a href="/pages/impressum.html" class="dataHandling__link">Impressum</a>
+      <a href="/pages/datenschutz.html" class="dataHandling__link">Datenschutzerklärung</a>
+    </div>
+  </footer>
+</html>
