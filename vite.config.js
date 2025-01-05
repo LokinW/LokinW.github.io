@@ -12,6 +12,8 @@ export default defineConfig({
         botandcook: resolve(__dirname, 'pages/botandcook.html'),
         otherness: resolve(__dirname, 'pages/otherness.html'),
         whitepaper: resolve(__dirname, 'pages/whitepaper.html'),
+        impressum: resolve(__dirname, 'impressum.html'),
+        datenschutz: resolve(__dirname, 'datenschutz.html'),
       },
     },
   },
