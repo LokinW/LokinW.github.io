@@ -15,6 +15,7 @@
     font-size: var(--size-6xl);
     color: var(--clr-light);
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 #dl_cv {
     width: auto;
@@ -145,8 +146,12 @@
     transition: transform .25s;
 }
 
-
-
+#wArconsis__logo {
+    transform: scale(.65) translateX(2px) translateY(-8px)
+}
+#wGeorg__logo {
+    transform: scale(1.4) translateX(-8px) translateY(8px)
+}
 #uSiegen__logo {
     transform: scale(.5);
     filter: saturate(0) brightness(5);
