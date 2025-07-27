@@ -9,7 +9,30 @@
     <meta name="google-site-verification" content="uzD4tgKyXbtZ4SpnfuyuqQ9IEYcBUan3mdvSHVtBC8w" />
     <title>Sebastian Nikol – Projekte</title>
     <meta name="description" content="Portfolio von Sebastian Nikol, UX/UI Designer. Spezialisiert auf Web, Mobile und Desktop Anwendungen.">
-</head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sebastian Nikol",
+        "url": "https://www.sebastiannikol.de",
+        "sameAs": [
+          "https://github.com/LokinW",
+          "https://www.linkedin.com/in/sebastian-nikol",
+          "https://www.instagram.com/se_lokin"
+        ],
+        "jobTitle": "UX/UI-Designer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "arconsis"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Karlsruhe",
+          "addressCountry": "DE"
+        }
+      }
+      </script>
+  </head>
 <body>
     <div id="preloader" style="background:no-repeat center center #000000 url(/loading.gif);height:100%;width:100%;position:fixed;z-index:9999;left:0;top:0;overflow-y:hidden;"></div>
 
@@ -137,10 +160,16 @@
 <script type="module" src="./src/utils/preloader.js"></script>
 </body>
 <footer class="footer container section">
-  <h3 class="footer__title">~ Sebastian Nikol ~</h3>
+  <p class="footer__title">
+      ~ &copy; <span id="year"></span> Sebastian Nikol ~
+  </p>
   <div class="dataHandling container">
     <a href="/impressum.html" class="dataHandling__link">Impressum</a>
     <a href="/datenschutz.html" class="dataHandling__link">Datenschutzerklärung</a>
   </div>
 </footer>
 </html>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>

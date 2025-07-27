@@ -82,10 +82,16 @@
     <script type="module" src="./src/utils/preloader.js"></script>
 </body>
 <footer class="footer container section">
-    <h3 class="footer__title">~ Sebastian Nikol ~</h3>
-    <div class="dataHandling container">
-      <a href="/impressum.html" class="dataHandling__link">Impressum</a>
-      <a href="/datenschutz.html" class="dataHandling__link">Datenschutzerklärung</a>
-    </div>
-  </footer>
+  <p class="footer__title">
+      ~ &copy; <span id="year"></span> Sebastian Nikol ~
+  </p>
+  <div class="dataHandling container">
+    <a href="/impressum.html" class="dataHandling__link">Impressum</a>
+    <a href="/datenschutz.html" class="dataHandling__link">Datenschutzerklärung</a>
+  </div>
+</footer>
 </html>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
