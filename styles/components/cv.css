@@ -114,6 +114,17 @@
 .cv__insititution{
     color: var(--clr-db2);
 }
+
+.cv__insititution a {
+    color: var(--clr-db2);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .cv__insititution a:hover {
+    color: var(--clr-db1);
+  }
+  
 .cv__city {
     color: var(--clr-db2);
 }
